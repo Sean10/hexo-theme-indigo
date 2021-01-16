@@ -24,6 +24,8 @@ page.slug = 'hexo-page-' + page.path.replace(/\/index\.html$/,'').split('/').joi
                 <p><%- theme.about %></p>
             </div>
 
+            <%- partial('_partial/post/addthis') %>
+
             <%- partial('_partial/post/share-fab') %>
 
         </div>
